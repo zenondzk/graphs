@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApi", "GraphApi\GraphApi.csproj", "{78C6305B-8F39-4080-B405-F15CB33CFF85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApi.Services", "GraphApi.Services\GraphApi.Services.csproj", "{490AA33F-C8BA-456E-9EE6-F4A78031E146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApi.Services.Tests", "GraphApi.Services.Tests\GraphApi.Services.Tests.csproj", "{B161F286-5943-4EF0-920C-4DFB7B775A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApi.Data", "GraphApi.Data\GraphApi.Data.csproj", "{2CBC16C9-98F9-4C2B-BE41-2E4FDA198D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApi.Framework", "GraphApi.Framework\GraphApi.Framework.csproj", "{D413B56A-A7B0-47C7-BB98-80C23EDC7030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C6305B-8F39-4080-B405-F15CB33CFF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C6305B-8F39-4080-B405-F15CB33CFF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C6305B-8F39-4080-B405-F15CB33CFF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C6305B-8F39-4080-B405-F15CB33CFF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490AA33F-C8BA-456E-9EE6-F4A78031E146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490AA33F-C8BA-456E-9EE6-F4A78031E146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490AA33F-C8BA-456E-9EE6-F4A78031E146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490AA33F-C8BA-456E-9EE6-F4A78031E146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B161F286-5943-4EF0-920C-4DFB7B775A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B161F286-5943-4EF0-920C-4DFB7B775A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B161F286-5943-4EF0-920C-4DFB7B775A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B161F286-5943-4EF0-920C-4DFB7B775A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBC16C9-98F9-4C2B-BE41-2E4FDA198D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBC16C9-98F9-4C2B-BE41-2E4FDA198D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBC16C9-98F9-4C2B-BE41-2E4FDA198D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBC16C9-98F9-4C2B-BE41-2E4FDA198D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D413B56A-A7B0-47C7-BB98-80C23EDC7030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D413B56A-A7B0-47C7-BB98-80C23EDC7030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D413B56A-A7B0-47C7-BB98-80C23EDC7030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D413B56A-A7B0-47C7-BB98-80C23EDC7030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5458368-6765-4A0C-9001-3100F5C3B716}
+	EndGlobalSection
+EndGlobal
